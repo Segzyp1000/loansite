@@ -1,0 +1,135 @@
+.table-container {
+    margin-top: 1px; 
+    width:77vw;
+    margin-right: 5px;
+    padding: 1px;
+    z-index: 1;
+    right: 0;
+    justify-content: flex-start;
+}
+
+  table {
+    width: 90%;
+    line-height: 2.0;
+    font-size: 12px;
+    border-collapse: collapse;
+    margin: 20px;
+    z-index: 1;
+  
+
+
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    margin-left:16px;
+    text-transform: uppercase;
+  
+  }
+  .input {
+    border-radius: 1px;
+    
+  }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    margin-left: 15px;
+}
+
+.status-button {
+  border-radius:2rem;
+  display: flex;
+  line-height: 1.7;
+}
+
+.details-container {
+  position: relative;
+}
+
+
+
+.input-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.9)
+}
+
+.input-container.active {
+  display: block; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .table-container {
+    width: 40%;
+  }
+  .table {
+    margin-left:2rem;
+    width: 40%;
+    margin: 10px;
+
+  }
+
+  .remove {
+    display: none;
+  }
+
+  .status-button {
+    display: none;
+  }
+
+
+ td {
+    margin: 10px;
+  }
+  th {
+    font-size: 8px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .table {
+    overflow-x: auto;
+    width: 70%;
+  }
+
+  .remove {
+    display: none;
+  }
+
+  th, td {
+    padding: 8px 4px;
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
+
+  th {
+    font-size: 8px;
+  }
+
+  .status-button {
+    padding: 4px 8px; /* Adjust padding */
+    font-size: 8px; /* Adjust font size */
+  }
+
+  .table-container {
+    width: 77%;
+    margin-top: 10px;
+  }
+}

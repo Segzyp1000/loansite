@@ -1,0 +1,25 @@
+.main-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    max-width: 20vw; 
+    padding: 10px;
+  }
+  
+  .main-content {
+    max-width: 70vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
