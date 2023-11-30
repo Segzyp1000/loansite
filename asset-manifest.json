@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Segzyp1000.github.io/loansite/static/css/main.aca042ef.css",
+    "main.js": "/Segzyp1000.github.io/loansite/static/js/main.d3500823.js",
+    "static/media/Formic.svg": "/Segzyp1000.github.io/loansite/static/media/Formic.09ab3c2d3909a795c1389eddc76c5449.svg",
+    "static/media/Logo.svg": "/Segzyp1000.github.io/loansite/static/media/Logo.a4cebf3d34bb43396bea94d6499f41fc.svg",
+    "index.html": "/Segzyp1000.github.io/loansite/index.html",
+    "main.aca042ef.css.map": "/Segzyp1000.github.io/loansite/static/css/main.aca042ef.css.map",
+    "main.d3500823.js.map": "/Segzyp1000.github.io/loansite/static/js/main.d3500823.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aca042ef.css",
+    "static/js/main.d3500823.js"
+  ]
+}
