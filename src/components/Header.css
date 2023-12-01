@@ -124,6 +124,7 @@ button:focus {
 @media screen and (max-width: 450px) {
   .header {
     width: 100vw;
+    border: none;
   }
 }
 
