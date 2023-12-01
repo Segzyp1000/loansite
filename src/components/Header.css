@@ -75,14 +75,12 @@ button:focus {
 @media screen and (max-width: 768px) {
   .header {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  width: 100vw;
   border: 1px solid #ccc;
-  gap: 2px;
   }
 
   .header-logo {
-    margin-right: 3rem;
+    margin-right: 1rem;
     width: 70%;
     font-size: 20px;
    
@@ -99,7 +97,7 @@ button:focus {
 
   .icons {
     display: flex;
-    margin-left: 13rem;
+    margin-left: 8rem;
   }
 
   input[type="text"] {
@@ -112,12 +110,21 @@ button:focus {
   .contact-icon {
     font-size: 15px;
     display: flex;
-    height: 40px;
-    width: 40px;
+    /* height: 40px;
+    width: 40px; */
     border-radius: 100%;
+  }
+  .info {
+    margin-right: 27rem;
   }
   
 
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    width: 100vw;
+  }
 }
 
 

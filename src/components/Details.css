@@ -147,4 +147,10 @@
   .remove3 {
     display: none;
   }
+
+  th, td {
+   margin-right: 20px;
+
+  }
+  
 }
