@@ -59,7 +59,7 @@ function Details() {
     </div>     
       <Table className='table'>
           <th onClick={handleSubmit} className='remove'>Organization<MdOutlineExpandMore/></th>
-          <th onClick={handleSubmit}>Username<MdOutlineExpandMore/></th>
+          <th onClick={handleSubmit} className='remove2'>Username<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Email<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Phone Number<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Date Joined<MdOutlineExpandMore/></th>
@@ -69,7 +69,7 @@ function Details() {
           {userData.map(user => (
             <tr key={user.id}>
                <td className='remove-se'>{user.orgName}</td>
-              <td>{user.userName}</td>
+              <td className='remove3'>{user.userName}</td>
               <td>{user.email}</td>
               <td>{user.phoneNumber}</td>
               <td>{user.lastActiveDate}</td>
