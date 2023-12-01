@@ -70,6 +70,7 @@ p {
 
 }
 
+
 #email, #password  {
     width:60%;
     height:38px;
@@ -77,6 +78,31 @@ p {
     margin-top: 1em;
     margin-right: 12em;
 }
+
+.lead{
+    font-size: 0.1px;
+    font-weight: bolder;
+    display: block;
+    margin: 1rem auto;
+    color: #39cdcc;
+    cursor: pointer;
+}
+.lead:hover {
+    color: red;
+}
+
+
+.password-input {
+    position: relative;
+  }
+  
+  .password-icon {
+    position: absolute;
+    right: 16rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
 
 #submit {
     width:60%;
@@ -92,9 +118,22 @@ p {
     color: #fff;
 }
 
+
 @media screen and (max-width: 768px) {
-    .slider-page {
+    .LoginPage {
+        margin-left: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image {
         display: none;
+    }
+
+    .logo {
+        display:  flex;
+        margin-left: 10rem;
+        margin-bottom: 5rem;
     }
 
     .Form-G {
@@ -103,7 +142,19 @@ p {
     }
 
     p {
-        font-size: 14px;
+        font-size: 12px;
+        margin-left: 0.5rem;
         width: 100%;
+        font-weight:bolder;
     }
+
+    .password-icon {
+        position: absolute;
+        right: 9rem;
+        top: 40%;
+        transform: translateY(-40%);
+        cursor: pointer;
+      }
+
+    
 }

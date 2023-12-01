@@ -11,7 +11,7 @@ const Input = () => {
       <input type='text' id="username" placeholder='Enter username' />
 
       <label htmlFor="email">Email</label>
-      <input type='email' id="email" placeholder='Enter email' />
+      <input type='email' id="email" className='email' placeholder='Enter email' />
 
       <label htmlFor="date">Date</label>
       <input type='date' id="date" />

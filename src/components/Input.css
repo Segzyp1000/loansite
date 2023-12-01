@@ -10,13 +10,14 @@
     z-index: 1;
     margin-right: 0;
   }
-
-  #username, #organization {
-    width: 230px;
-  }
   
   .input-form label {
     font-weight: bold;
+  }
+
+  .input-form input,
+  .input-form #email {
+    width: 100%;
   }
   
   .input-form input,
@@ -27,7 +28,7 @@
   }
   
   .input-form select {
-    width: 90%;
+    width: 100%;
   }
   .white {
     background: #fff;
@@ -44,4 +45,14 @@
     display: flex;
     margin-top: 4px;
   
+  }
+
+  @media screen and (max-width: 768px) {
+    .input-form {
+    width: 70%
+    }
+
+  input {
+    width: 100%;
+  }
   }

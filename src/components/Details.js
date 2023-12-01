@@ -63,12 +63,12 @@ function Details() {
           <th onClick={handleSubmit}>Email<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Phone Number<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Date Joined<MdOutlineExpandMore/></th>
-          <th onClick={handleSubmit}>Status<MdOutlineExpandMore/></th>
+          <th onClick={handleSubmit} className='remove-s'>Status<MdOutlineExpandMore/></th>
           
         <tbody>
           {userData.map(user => (
             <tr key={user.id}>
-               <td>{user.orgName}</td>
+               <td className='remove-se'>{user.orgName}</td>
               <td>{user.userName}</td>
               <td>{user.email}</td>
               <td>{user.phoneNumber}</td>
