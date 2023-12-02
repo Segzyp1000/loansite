@@ -149,5 +149,9 @@ p {
         cursor: pointer;
       }
 
+      #submit {
+        padding: 10px;
+      }
+
 
 }
