@@ -15,10 +15,10 @@ const Form = ({ setIsLoggedIn }) => {
 
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    if (email.match(emailPattern) && password.length === 10) {
+    if (email.match(emailPattern) && password.length >= 6) {
       setIsLoggedIn(true);
     } else {
-      alert('Invalid email or password. Please check your credentials.');
+      alert('Invalid email or password');
     }
   };
 
@@ -49,11 +49,11 @@ const Form = ({ setIsLoggedIn }) => {
               value={password}
               className='user'
               onChange={(e) => {
-                if (e.target.value.length <= 10) {
+                if (e.target.value.length >= 6) {
                   setPassword(e.target.value);
                 }
               }}
-              maxLength={10}
+              maxLength={19}
             />
             <span
               className='password-icon'
