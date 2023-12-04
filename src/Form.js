@@ -15,7 +15,7 @@ const Form = ({ setIsLoggedIn }) => {
 
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    if (email.match(emailPattern) && password.length >= 6) {
+    if (email.match(emailPattern) && password.length <= 10) {
       setIsLoggedIn(true);
     } else {
       alert('Invalid email or password');
@@ -49,7 +49,7 @@ const Form = ({ setIsLoggedIn }) => {
               value={password}
               className='user'
               onChange={(e) => {
-                if (e.target.value.length >= 6) {
+                if (e.target.value.length <= 10) {
                   setPassword(e.target.value);
                 }
               }}
