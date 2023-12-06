@@ -73,21 +73,12 @@ button:focus {
   margin-left: 20px;
 }
 
-@media screen and (max-width: 900px) {
-  .header {
-    width: 100vw;
-  }
 
-  .search-container {
-    width: 20%;
-    margin-left: 5px;
-  }
-}
-
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 468px) {
   .header {
     display: flex;
     width: 100vw;
+    border: none;
   }
 
   .header-logo {
@@ -134,66 +125,3 @@ button:focus {
 }
 
 
-
-/* @media screen and (max-width: 768px) {
-  .header {
-  display: flex;
-  width: 100vw;
-  border: 1px solid #ccc;
-  }
-
-   .search-container {
-    width: 20%;
-    margin-left: 5px;
-  }
-
-  .header-logo {
-    margin-right: srem;
-    width: 80%;
-    font-size: 25px;
-    height: 50px;
-   
-  }
-
-  .search-container {
-    width: 20%;
-    margin-left: 5px;
-  }
-
- 
-  .icons {
-    display: flex;
-    margin-left: 8rem;
-  }
-
-  input[type="text"] {
-    width: 100px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #349292;
-  }
-
-  .contact-icon {
-    font-size: 15px;
-    display: flex;
-    border-radius: 100%;
-  }
-  .info {
-    margin-right: 27rem;
-  }
-  
-}
-
-@media screen and (max-width: 450px) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    border: none;
-  }
-
- 
-}
-
-
- */

@@ -39,8 +39,6 @@
 
 .footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     font-size: small;
 }
 
@@ -96,10 +94,8 @@ table {
 
 .footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   font-size: small;
-  margin-left: 12rem;
+  margin-left: 2rem;
 }
 
 }
