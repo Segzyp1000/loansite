@@ -53,10 +53,12 @@ function Details() {
  
   
   return (
-    <div className="table-container">
+    <div className="table-container"> 
+
      <div className="details-container">
     {showForm && <Input className="input-container" />}
-    </div>     
+    </div>  
+
       <Table className='table'>
           <th onClick={handleSubmit} className='remove'>Organization<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit} className='remove2'>Username<MdOutlineExpandMore/></th>
@@ -64,8 +66,7 @@ function Details() {
           <th onClick={handleSubmit}>Phone Number<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Date Joined<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit} className='remove-s'>Status<MdOutlineExpandMore/></th>
-          
-        <tbody>
+        <tbody className='table-insert'>
           {userData.map(user => (
             <tr key={user.id}>
                <td className='remove-se'>{user.orgName}</td>

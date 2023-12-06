@@ -1,7 +1,10 @@
 .ListG {
     width: 20vw; 
-    right: 0;
+    position: absolute;
+    top: 6rem;
+    left: 0;
     justify-content: flex-start;
+    
        
 }
 
@@ -12,7 +15,13 @@ p, h6, b {
  font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px)  {
+    .container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
     .container {
         display: none;
     }
