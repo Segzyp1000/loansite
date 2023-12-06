@@ -10,7 +10,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 10vw;
     margin-top: 20px;
-    padding-bottom: 15x;
+    padding-bottom: 15px;
     
   }
 
@@ -62,7 +62,35 @@
   border-radius: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 468px) {
+  .user-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    margin-right: 13rem;
+  }
+
+  h3 {  
+    width: 30vw;
+    margin-top: 70px;
+    font-size: 15px;
+    padding-bottom: 15px;
+  
+    
+  }
+
+  h5 {
+  font-weight: 100;
+  left: 0;
+  font-size: 13px;
+  margin-left: 0.1px;
+  width: 30vw;
+  margin-top: 30px;
+  ;
+  }
+
+}
+/* @media screen and (max-width: 768px) {
   .user-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -99,4 +127,4 @@
     margin-left: 2.7rem;
   }
 }
-
+ */
