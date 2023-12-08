@@ -15,7 +15,7 @@ p, h6, b {
  font-weight: 600;
 }
 
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 992px)  {
     .container {
         display: none;
     }

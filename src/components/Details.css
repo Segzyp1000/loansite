@@ -4,7 +4,6 @@
     margin-left: 11rem;
     padding: 1px;
     z-index: 1;
-    right: 0;
     justify-content: flex-start;
 }
 
@@ -71,13 +70,14 @@
   display: block; 
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 576px) {
   .table-container {
     margin-top: 1px; 
-    width:65vw;
-    margin-left: 2rem;
+    width:70vw;
+    left:0;
+    margin-left: 2px;
+    position: absolute;
     padding: 1px;
-    justify-content: flex-start;
 }
 
 .remove, .remove2, .remove3, .remove-se {
@@ -88,14 +88,34 @@ table {
   line-height: 2.0;
   font-size: 12px;
   border-collapse: collapse;
-  margin-left: 9rem;
+  margin-left: 2px;
 
 }
 
 .footer {
   display: flex;
   font-size: small;
-  margin-left: 2rem;
+  margin-left: 2px;
+  left: 0;
+  position: absolute;
 }
 
 }
+
+
+
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+      .table-container {
+        width: 100vw;
+        margin-left: 0.1rem;
+        left: 0;
+        position: absolute;
+      }
+      .footer {
+        margin-right: 2rem;
+      }
+    }
+
+    

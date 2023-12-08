@@ -62,69 +62,53 @@
   border-radius: 100%;
 }
 
-@media screen and (max-width: 468px) {
+
+
+
+
+@media screen and (max-width: 576px) {
   .user-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100vw;
-    margin-right: 13rem;
+    width: 80vw;
+    margin: auto;
+    margin-left: 1px;
   }
+.custom-body {
+  width: auto;
+  font-size: 15px;
+  margin-left: 2px;
+}
 
-  h3 {  
-    width: 30vw;
-    margin-top: 70px;
-    font-size: 15px;
-    padding-bottom: 15px;
+h5, h3{
+  width: 25vw;
   
-    
-  }
-
-  h5 {
-  font-weight: 100;
-  left: 0;
-  font-size: 13px;
-  margin-left: 0.1px;
-  width: 30vw;
-  margin-top: 30px;
-  ;
-  }
-
 }
-/* @media screen and (max-width: 768px) {
-  .user-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 70%;
-    margin-left: 2.7rem;
-  }
-  h5 {
-    font-size: 10px;
-    width: 15vw;
-    margin-left: 20px;
-  }
 
-  h3 {
-    width: 17vw;
-    margin-left: 20px;
-  }
-
-  .custom-card {
-    margin-left: 2px;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 4px 8px rgba(86, 51, 51, 0.1); 
-  
-  }
- 
 }
 
 
- @media screen and (max-width: 468px) {
-  .user-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100vw;
-    margin-left: 2.7rem;
-  }
-}
- */
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+      .user-container {
+        width: 100vw;
+        margin-right: 12rem;
+      }
+    }
+
+    @media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+      .user-container {
+        width: 60vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left:6rem;
+      }
+    }
+
+    /* @media screen and (min-device-width: 1200px) 
+    and (max-device-width: 1400px) {
+      .user-container {
+        width: 77vw;
+      }
+    }  */
