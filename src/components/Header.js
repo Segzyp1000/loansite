@@ -25,7 +25,7 @@ const Header = () => {
           </button>  
         </div>
         <div className='doc'>
-          <p>DOCS</p>
+          <p className='doc1'>DOCS</p>
           <NotificationsIcon className="notification-icon" />
         </div>
         <div className="icons">

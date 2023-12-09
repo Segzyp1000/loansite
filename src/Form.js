@@ -32,8 +32,8 @@ const Form = ({ setIsLoggedIn }) => {
         <img src={Formic} alt='formulated img' className='image' /> 
       </div>
       <div className='Form-G'>
-        <h4>Welcome!</h4>
-        <p>Enter details to login</p>
+        <h2>Welcome!</h2>
+        <h6>Enter details to login</h6>
         
         <form onSubmit={handleLogin}>
           <input
@@ -41,7 +41,6 @@ const Form = ({ setIsLoggedIn }) => {
             id='email'
             placeholder='Email'
             value={email}
-            className='user'
             onChange={(e) => setEmail(e.target.value)}
           />
           <div className='password-input'>
@@ -50,7 +49,6 @@ const Form = ({ setIsLoggedIn }) => {
               id='password'
               placeholder='Password'
               value={password}
-              className='user'
               onChange={(e) => {
                 if (e.target.value.length <= 10) {
                   setPassword(e.target.value);

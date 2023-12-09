@@ -99,10 +99,10 @@ h5, h3{
     @media screen and (min-device-width: 768px) 
     and (max-device-width: 1024px) {
       .user-container {
-        width: 60vw;
+        width: 50vw;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-left:6rem;
+        margin-left:17rem;
       }
     }
 

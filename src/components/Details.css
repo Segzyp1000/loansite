@@ -1,7 +1,7 @@
 .table-container {
     margin-top: 1px; 
     width:75vw;
-    margin-left: 11rem;
+    margin-left: 10rem;
     padding: 1px;
     z-index: 1;
     justify-content: flex-start;
@@ -108,8 +108,8 @@ table {
 @media screen and (min-device-width: 768px) 
     and (max-device-width: 1024px) {
       .table-container {
-        width: 100vw;
-        margin-left: 0.1rem;
+        width: 65vw;
+        margin-left: 11.5rem;
         left: 0;
         position: absolute;
       }
