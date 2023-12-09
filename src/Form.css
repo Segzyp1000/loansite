@@ -6,13 +6,13 @@
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    margin-top: 7rem;
+    margin-top: 2rem;
     padding: 10px;
     font-size: 10px;
     gap:3rem;
     max-width: 100vw;
     max-height: 100vh;
-    margin-left: 7rem;
+    margin-left: 6rem;
     
 }
 h2 {
@@ -119,10 +119,8 @@ h6 {
         align-items: flex-start;
         left: 0;
         position:absolute;
-        gap: 3rem;
+        gap: 4rem;
         width: 100vw;
-        height: 200px;
-        margin-left: 2rem;
     }
     .image {
         display: none;
@@ -137,10 +135,10 @@ h6 {
 
     #email, #password  {
         width:100%;
-        height: 40px;
         display: flex;
         margin-top: 2em;
-        margin-right: 12em;
+        border: 1px solid #ccc;
+
     }
 
     p {
@@ -151,6 +149,7 @@ h6 {
         width: 100vw;
         left: 0;
         position: relative;
+        margin-bottom: 4rem;
     
 
     }
@@ -176,28 +175,34 @@ h6 {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .LoginPage {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        left: 0;
+        position:absolute;
+        gap: 4rem;
         width: 100vw;
-        margin-left: 1rem;
-        margin-top: 20rem;
-        height: 500px;
+        margin-left: 12rem;
     }
 
     .image {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100%;
-        margin-left: 1rem;
+        display: none;
+
+
     }
     .logo {
-            margin-left: 10rem;
+            margin-left: 20rem
     
+    }
+
+    #email, #password  {
+        border: 1px solid #ccc;
+
     }
 
     .password-icon {
         position: absolute;
-        right:17rem;
+        right:12.5rem;
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
@@ -207,5 +212,6 @@ h6 {
         margin-top: 1rem;
       }
 }
+
 
  
