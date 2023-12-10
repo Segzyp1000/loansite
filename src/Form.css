@@ -55,10 +55,15 @@ h2 {
 
 
 p {
-    color: #545f7d;
+    color: #3063f0;
     width: 100%;
     font-size: 12px;
 
+}
+
+p:hover {
+    color: #5a5d0c;
+    cursor: pointer;
 }
 
 h6 {
