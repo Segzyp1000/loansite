@@ -13,74 +13,74 @@ function List() {
   return (
     <div className='container'>
     <ListGroup className='ListG'>
-      <ListGroup.Item href="#link0">
-      <h6><b><FaBriefcase />  Switch Organization <RiExpandUpDownFill /></b></h6>
+      <ListGroup.Item action id="link22">
+      <b><FaBriefcase /> Switch Organization <RiExpandUpDownFill /></b>
       </ListGroup.Item>
-      <ListGroup.Item action href="#link1">
-      <h6><b><IoMdHome /> Dashboard</b></h6>
+      <ListGroup.Item action id="link1">
+      <b><IoMdHome /> Dashboard</b>
       </ListGroup.Item>
-      <ListGroup.Item action href="#link2">
-      <h6><b>CUSTOMERS</b></h6>
+      <ListGroup.Item action id="link2">
+      <b>CUSTOMERS</b>
       </ListGroup.Item>
-      <ListGroup.Item action href="#link3">
-      <p><ImUsers /> Users</p>
+      <ListGroup.Item action id="link3">
+      <ImUsers /> Users
       </ListGroup.Item>
-      <ListGroup.Item action href="#link4">
-      <p><PiUsersThreeFill /> Guarantors</p>
+      <ListGroup.Item action id="link4">
+      <PiUsersThreeFill/> Guarantors
       </ListGroup.Item>
-      <ListGroup.Item action href="#link5">
-      <p><RiMoneyDollarBoxFill /> Loans</p>
+      <ListGroup.Item action id="link5">
+      <RiMoneyDollarBoxFill /> Loan
       </ListGroup.Item>
-      <ListGroup.Item action href="#link6">
-      <p><FaHandshake /> Decision Models</p>
+      <ListGroup.Item action id="link6">
+      <FaHandshake /> Decision Models
       </ListGroup.Item>
-      <ListGroup.Item action href="#link7">
-      <p><FaPiggyBank /> Savings</p>
+      <ListGroup.Item action id="link7">
+      <FaPiggyBank /> Savings
       </ListGroup.Item>
-      <ListGroup.Item action href="#link8">
-      <p><FaHandHoldingUsd /> Loan Request</p>
+      <ListGroup.Item action id="link8">
+      <FaHandHoldingUsd /> Loan Request
       </ListGroup.Item>
-      <ListGroup.Item action href="#link9">
-      <p><FaUserCheck /> Whitelist</p>
+      <ListGroup.Item action id="link9">
+      <FaUserCheck /> Whitelist
       </ListGroup.Item>
-      <ListGroup.Item action href="#link10">
-      <h6><b>BUSINESS</b></h6>
+      <ListGroup.Item action id="link10">
+      <b>BUSINESS</b>
       </ListGroup.Item>
-      <ListGroup.Item action href="#link11">
-      <p><FaHandHoldingUsd /> Loan Products</p>
+      <ListGroup.Item action id="link11">
+      <FaHandHoldingUsd /> Loan Products
       </ListGroup.Item>
-      <ListGroup.Item action href="#link12">
-      <p><FaBriefcase /> Organization</p>
+      <ListGroup.Item action id="link12">
+      <FaBriefcase /> Organization
       </ListGroup.Item>
-      <ListGroup.Item action href="#link13">
-      <p><FaLandmark /> Fees & Charges</p>
+      <ListGroup.Item action id="link13">
+      <FaLandmark /> Fees and Charges
       </ListGroup.Item>
-      <ListGroup.Item action href="#link14">
-      <p><FaTablet /> Transactions</p>
+      <ListGroup.Item action id="link14">
+      <FaTablet /> Transactions
       </ListGroup.Item>
-      <ListGroup.Item action href="#link15">
-      <p><FaServicestack /> Services</p>
+      <ListGroup.Item action id="link15">
+      <FaServicestack /> Services
       </ListGroup.Item>
-      <ListGroup.Item action href="#link16">
-      <p><FaUserGear/> Accounts</p>
+      <ListGroup.Item action id="link16">
+      <FaUserGear/> Accounts
       </ListGroup.Item>
-      <ListGroup.Item action href="#link17">
-      <p><FaScroll /> Settlements</p>
+      <ListGroup.Item action id="link17">
+      <FaScroll /> Settlements
       </ListGroup.Item>
-      <ListGroup.Item action href="#link`18">
-      <p><IoBarChart /> Reports</p>
+      <ListGroup.Item action id="link18">
+      <IoBarChart /> Reports
       </ListGroup.Item>
-      <ListGroup.Item action href="#link19">
-      <h6><b>SETTINGS</b></h6>
+      <ListGroup.Item action id="link19">
+      <b>SETTINGS</b>
       </ListGroup.Item>
-      <ListGroup.Item action href="#link20">
-      <p><FaSlidersH /> Prefrences</p>
+      <ListGroup.Item action id="link20">
+      <FaSlidersH /> Prefrences
       </ListGroup.Item>
-      <ListGroup.Item action href="#link21">
-      <p>< FaCoins /> Fees & Pricing</p>
+      <ListGroup.Item action id="link21">
+      < FaCoins /> Fees & Pricing
       </ListGroup.Item>
-      <ListGroup.Item action href="#link21">
-      <p><FaRectangleList /> Audit Logs</p>
+      <ListGroup.Item action id="link21">
+      <FaRectangleList /> Audit Logs
       </ListGroup.Item>
     </ListGroup>
     </div>

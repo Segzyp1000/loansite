@@ -1,8 +1,5 @@
 
 import React, { useState } from 'react';
-// import {useForm} from react-hook-form;
-// import * as yup from 'yup';
-// import {yupResolver} from '@hook-form/resolver/yup'
 import Logo from './Logo.svg'; 
 import Formic from './display/Formic.svg'; 
 import './Form.css';
@@ -78,17 +75,4 @@ const Form = ({ setIsLoggedIn }) => {
 
 export default Form;
 
-// const Form = () => {
-//   const schema =yup.object(). shape({
-//     email: yup.sting().required(),
-//     password: yup.string().min(4).max(20).required()
-//   });
-//   const {register, handleSubmit} = useForm({
-//     resolver:
-//   });
 
-//   const onSubmit = (data) => {
-//     console.log(data)
-//   }
-
-// }
