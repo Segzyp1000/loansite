@@ -16,7 +16,7 @@
     
 }
 h2 {
-    color: #5d0c0c;
+    color: #545f7d;
 }
 
 .slider-page {
@@ -55,7 +55,7 @@ h2 {
 
 
 p {
-    color: #3063f0;
+    color: #5d6fa3;
     width: 100%;
     font-size: 12px;
 
@@ -78,7 +78,7 @@ h6 {
     height:50px;
     display: flex;
     margin-top: 1rem;
-    
+    border: 1px solid #ccc;
 }
 
 .lead {
