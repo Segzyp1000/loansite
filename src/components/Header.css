@@ -1,11 +1,13 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  position: relative;
+  left: 0;
   padding: 10px 20px;
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
   border: 1px solid #ccc;
+  
 
 }
 
@@ -78,13 +80,13 @@ button:focus {
 
 @media screen and (max-width: 576px) {
   .header {
-    width: 100vw;
+    width: 100%;
     margin-left:0.2rem;
   
   }
 
   .header-logo {
-    font-size: 24px;
+    font-size: 14px;
     width: 10vw;
   }
 
@@ -118,39 +120,35 @@ button:focus {
 
  @media screen and (min-width: 768px) and (max-width: 1024px) {
       .header {
-        width: 100vw;
         border: 1px solid #ccc;
+        position: relative;
+        left: 0;
+        padding: 10px 20px;
       }
 
       .header-logo {
-        width: 10vw;
-        font-size: 24px;
+        font-size: 14px;
         margin-left: 0.4rem;
+        
+
       }
 
       .search-container {
-        margin-left: 10rem;
-        position: absolute;
-    
+        margin-left: 2rem;
       }
 
       .contact-icon {
-        margin-right: 0.5rem;
+        margin-left: 4rem;
       }
 
       input[type='text'] {
         width: 230px;
       }
 
-      .doc {
-        display: none;
-      }
-
-
       .info {
         position: relative;
         right: 0;
-        margin-right: 0.1rem;
+        margin-right: 4rem;
         justify-content: flex-end;
       
       }

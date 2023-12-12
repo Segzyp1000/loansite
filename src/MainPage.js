@@ -9,7 +9,10 @@ import './MainPage.css';
 function MainPage() {
   return (
     <div className="main-page">
+
+      <div className='headere'>
       <Header />
+      </div>
 
       <div className="content-container">
         <div className='sidebar'>
