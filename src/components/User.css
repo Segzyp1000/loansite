@@ -1,6 +1,6 @@
 .user-container {
     width: 75vw;
-    margin-left: 13rem;
+    margin-left: 15rem;
     padding: 10px; 
     display: flex;
   } 
@@ -78,7 +78,8 @@
         width: 50vw;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-left:5rem;
+        margin-left: 10rem;
+        
       }
     }
 
@@ -86,6 +87,7 @@
     and (max-device-width: 1400px) {
       .user-container {
         width: 77vw;
+
         
       }
     } 

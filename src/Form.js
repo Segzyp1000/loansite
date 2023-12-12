@@ -5,6 +5,7 @@ import Formic from './display/Formic.svg';
 import './Form.css';
 import { MdVisibility, MdVisibilityOff } from 'react-icons/md';
 
+
 const Form = ({ setIsLoggedIn }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

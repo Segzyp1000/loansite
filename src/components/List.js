@@ -11,7 +11,7 @@ import './List.css';
 function List() {
 
   return (
-    <div className='container'>
+    <div className='list-container'>
     <ListGroup className='ListG'>
       <ListGroup.Item action id="link22">
       <b><FaBriefcase /> Switch Organization <RiExpandUpDownFill /></b>

@@ -1,9 +1,8 @@
 .ListG {
-    width: 18vw; 
+    width: 17vw; 
     justify-content: flex-start;     
     position: absolute;
     left: 0;
-
 }
 
 #link22, #link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8, #link9, #link10, #link11, #link12,
@@ -14,28 +13,30 @@
 }
 
 @media screen and (max-width:576px) { 
-    .container {
+    .list-container {
         display: none;
     }
 }
 
 @media screen and (min-width: 768px) 
 and (max-width: 1024px) {
-   .ListG{
-    width: 30vw;
-    position: absolute;
-    left: 0;
-    justify-content: flex-start;  
-   }
-}
-
-
-    /* @media screen and (min-width: 1200px) 
-and (max-width: 1400px) {
     .ListG {
-        margin-left: 4rem;
+    width: 30vw;
+    justify-content: flex-start;     
+    position: relative;
+    left: 0;
+    margin-right: 1rem;
+
     }
+} 
+
+
+@media screen and (min-device-width: 1200px) 
+and (max-device-width: 1400px) {
+.ListG {
+    width: 19vw
 }
- */
+
+}
 
 

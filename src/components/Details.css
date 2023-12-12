@@ -1,7 +1,7 @@
 .table-container {
     margin-top: 0; 
-    width:75vw;
-    margin-left: 10.5rem;
+    width:80vw;
+    margin-left: 12.5rem;
     padding: 1px;
   
 }
@@ -106,9 +106,9 @@ table {
     and (max-device-width: 1024px) {
       .table-container {
         width: 63vw;
-        margin-left: 16.5rem;
+        margin-left: 6rem;
         left: 0;
-        position: absolute;
+        position: relative
       }
 
       .remove, .remove-se {
@@ -119,5 +119,9 @@ table {
         margin-right: 2rem;
       }
     }
-
-    
+    /* @media screen and (min-device-width: 1200px) 
+    and (max-device-width: 1400px) {
+      .table-container {
+        width: 18.5vw;
+      }
+    }     */
