@@ -1,30 +1,32 @@
-
-import React, { useState } from 'react';
+import {useState} from 'react'
+import {useForm} from 'react-hook-form'
+import {yupResolver} from '@hookform/resolvers/yup'
+import * as yup from 'yup'
 import Logo from './Logo.svg'; 
 import Formic from './display/Formic.svg'; 
 import './Form.css';
 import { MdVisibility, MdVisibilityOff } from 'react-icons/md';
 
-
-const Form = ({ setIsLoggedIn }) => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+const Form =({setIsLoggedIn}) => {
   const [showPassword, setShowPassword] = useState(false);
+	
+const schema = yup.object().shape({
+    email: yup.string().email().required('Please enter a valid email'),
+    password: yup.string().min(6).max(19).required('password must be at leasst six characters'),
+});
 
-  const handleLogin = (e) => {
-    e.preventDefault();
 
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const {register, handleSubmit, formState:{errors} }  = useForm({
+resolver: yupResolver(schema)
+});
 
-    if (email.match(emailPattern) && password.length <= 10) {
-      setIsLoggedIn(true);
-    } else {
-      alert('Invalid email or password');
-    }
-  };
+const onSubmit = (data) => {
+  setIsLoggedIn(data);
+}
 
-  return (
-    <div className='LoginPage'>
+
+return (
+      <div className='LoginPage'>
       <div className='slider-page'>
         <img src={Logo} alt='myLogo' className='logo'/>
         <img src={Formic} alt='formulated img' className='image' /> 
@@ -33,27 +35,23 @@ const Form = ({ setIsLoggedIn }) => {
         <h2>Welcome!</h2>
         <h6>Enter details to login</h6>
         
-        <form onSubmit={handleLogin}>
+        <form onSubmit={handleSubmit(onSubmit)}>
           <input
             type='text'
             id='email'
             placeholder='Email'
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+		        {...register('email')}
           />
+	        <p className='error'>{errors.email?.message}</p>
           <div className='password-input'>
             <input
               type={showPassword ? 'text' : 'password'}
               id='password'
               placeholder='Password'
-              value={password}
-              onChange={(e) => {
-                if (e.target.value.length <= 10) {
-                  setPassword(e.target.value);
-                }
-              }}
-              maxLength={19}
+		          {...register('password')}
             />
+	          <p className='error'>{errors.password?.message}</p>
+	
             <span
               className='password-icon'
               onClick={() => setShowPassword(!showPassword)}
@@ -75,5 +73,8 @@ const Form = ({ setIsLoggedIn }) => {
 };
 
 export default Form;
+
+
+
 
 

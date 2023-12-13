@@ -19,10 +19,11 @@
     padding: 10px;
   }
   
-  .main-content {
+  .main-page {
     display: flex;
     position: relative;
     flex-direction: column; 
+    width: 100%;
   }
 
   
