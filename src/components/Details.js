@@ -5,7 +5,6 @@ import Button from './Button';
 import Input from './Input';
 import { MdMoreVert } from "react-icons/md"
 import { MdOutlineExpandMore } from "react-icons/md";
-
 import './Details.css';
 
 function Details() {
@@ -53,16 +52,14 @@ function Details() {
  
   
   return (
-    <div className="table-container"> 
-
+    <div className="table-container">
      <div className="details-container">
     {showForm && <Input className="input-container" />}
     </div>  
-
       <Table className='table'>
-          <th onClick={handleSubmit} className='remove'>Organization<MdOutlineExpandMore/></th>
+          <th onClick={handleSubmit}>Organization<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit} className='remove2'>Username<MdOutlineExpandMore/></th>
-          <th onClick={handleSubmit}>Email<MdOutlineExpandMore/></th>
+          <th onClick={handleSubmit}className='remove'>Email<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Phone Number<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Date Joined<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit} className='remove-s'>Status<MdOutlineExpandMore/></th>
@@ -70,8 +67,8 @@ function Details() {
           {userData.map(user => (
             <tr key={user.id}>
                <td className='remove-se'>{user.orgName}</td>
-              <td className='remove3'>{user.userName}</td>
-              <td>{user.email}</td>
+              <td>{user.userName}</td>
+              <td  className='remove3'>{user.email}</td>
               <td>{user.phoneNumber}</td>
               <td>{user.lastActiveDate}</td>
               <td>{<span className="status-button" style={{ backgroundColor: getStatusColor(getStatus()) }}>
