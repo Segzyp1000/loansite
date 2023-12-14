@@ -72,6 +72,11 @@ th {
     margin-left: 2rem;
     padding: 1px;
   }
+
+  .remove,
+  .remove3 {
+    display: none;
+  }
   
   
   
@@ -105,10 +110,7 @@ th {
     position: relative;
   }
 
-  .remove,
-  .remove-se {
-    display: none;
-  }
+  
 
   .footer {
     margin-right: 2rem;

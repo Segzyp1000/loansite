@@ -58,7 +58,7 @@ function Details() {
     </div>  
       <Table className='table'>
           <th onClick={handleSubmit}>Organization<MdOutlineExpandMore/></th>
-          <th onClick={handleSubmit} className='remove2'>Username<MdOutlineExpandMore/></th>
+          <th onClick={handleSubmit}>Username<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}className='remove'>Email<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Phone Number<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Date Joined<MdOutlineExpandMore/></th>

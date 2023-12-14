@@ -73,6 +73,9 @@ button:focus {
   margin-left: 20px;
 }
 
+.remove, .remove3 {
+  display: none;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -86,22 +89,25 @@ button:focus {
 
 
   .search-container {
-    margin-left: 10rem;
+    margin-left: 2rem;
   }
 
   
 
   input[type="text"] {
+    width: 300px;
     padding: 10px;
     border: 1px solid #349292;
   }
+
+  .remove2,
 
   .doc {
     display: none;
   }
 
   .contact-icon {
-    margin-left: 10rem;
+    margin-left: 2rem;
   }
 
 
