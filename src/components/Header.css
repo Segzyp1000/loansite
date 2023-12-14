@@ -1,8 +1,6 @@
 .header {
   display: flex;
   justify-content: space-between;
-  position: relative;
-  left: 0;
   padding: 10px 20px;
   background-color: #fff;
   width: 100%;
@@ -13,7 +11,6 @@
 
 .header-logo {
   height: 40px;
-  margin-left: 0.5rem;
 }
 
 .search-container {
@@ -54,7 +51,6 @@ button:focus {
   font-size: 24px;
   display:flex;
   color:#000;
-  margin-left: 5px;
 }
 
 .icons {
@@ -81,21 +77,23 @@ button:focus {
 @media screen and (max-width: 576px) {
   .header {
     width: 100%;
-    margin-left:0.2rem;
-  
+  display: flex;
+  justify-content: space-between;
+  border: none;
   }
 
   .header-logo {
     font-size: 14px;
-    width: 10vw;
+    width: 20px;
+  }
+  .search-container {
+    margin-left: 1.5rem;
   }
 
-  .search-container {
-    margin-left: 2rem;
-  }
+  
 
   input[type="text"] {
-    width: 70px;
+    width: 150px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #349292;
@@ -106,7 +104,7 @@ button:focus {
   }
 
   .contact-icon {
-    margin-left: 3.5rem;
+    margin-left: 1.5rem;
   }
 
 
@@ -117,20 +115,31 @@ button:focus {
 }
 }
 
+@media screen and (max-width: 600px) {
+.header {
+  width: 100%;
+}
+
+}
 
  @media screen and (min-width: 768px) and (max-width: 1024px) {
       .header {
         border: 1px solid #ccc;
-        position: relative;
-        left: 0;
+        width: 100%;
         padding: 10px 20px;
       }
 
       .header-logo {
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 0.4rem;
-        
+      }
 
+      .doc {
+        margin-left: 3rem;
+      }
+
+      .icons {
+        margin-left: 1rem;
       }
 
       .search-container {
@@ -142,7 +151,7 @@ button:focus {
       }
 
       input[type='text'] {
-        width: 230px;
+        width: 200px;
       }
 
       .info {

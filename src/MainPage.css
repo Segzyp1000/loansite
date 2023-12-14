@@ -19,12 +19,11 @@
     padding: 10px;
   }
   
-  .main-page {
-    display: flex;
-    position: relative;
-    flex-direction: column; 
-    width: 100%;
+ @media  (max-width:576px) {
+  .sidebar {
+    display: none;
   }
+ }
 
   
 
