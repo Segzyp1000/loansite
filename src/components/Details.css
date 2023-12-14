@@ -63,10 +63,12 @@ th {
 
 /* Media Queries for responsiveness */
 
-@media screen and (max-width: 767px) {
+
+
+@media screen and (max-width: 567px) {
   .table-container {
     margin-top: 1px;
-    width: 100%;
+    width: 350px;
     margin-left: 0;
     padding: 1px;
   }
@@ -96,8 +98,8 @@ th {
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1025px) {
   .table-container {
-    width: 63%;
-    margin-left: 6rem;
+    width: 700px;
+    margin-left: 5.5rem;
     left: 0;
     position: relative;
   }

@@ -47,8 +47,8 @@
   .user-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
-    width: 80%;
-    margin-left: 0.5rem;
+    width: 350px;
+    margin-left: 3rem;
     
   
 }
