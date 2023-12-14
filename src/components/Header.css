@@ -51,6 +51,7 @@ button:focus {
   font-size: 24px;
   display:flex;
   color:#000;
+  margin-left: 3rem;
 }
 
 .icons {
@@ -76,22 +77,22 @@ button:focus {
 
 @media screen and (max-width: 576px) {
   .header {
-    width: 500px;
+    width: 100%;
   display: flex;
   justify-content: space-between;
   border: none;
+
   }
 
+
   .search-container {
-    margin-left: 1rem;
+    margin-left: 10rem;
   }
 
   
 
   input[type="text"] {
-    width: 150px;
     padding: 10px;
-    font-size: 16px;
     border: 1px solid #349292;
   }
 
@@ -100,7 +101,7 @@ button:focus {
   }
 
   .contact-icon {
-    margin-left: 1rem;
+    margin-left: 10rem;
   }
 
 
@@ -121,7 +122,7 @@ button:focus {
       }
 
       .icons {
-        margin-right: 20rem;
+        margin-left: 29rem;
       }
 
       input[type="text"] {
@@ -142,35 +143,40 @@ button:focus {
       }
 
       .header-logo {
-        font-size: 12px;
+        width: 60px;
         margin-left: 0.4rem;
-      }
-
-      .doc {
-        margin-left: 3rem;
-      }
-
-      .icons {
-        margin-left: 2rem;
       }
 
       .search-container {
         margin-left: 2rem;
       }
 
-      .contact-icon {
-        margin-left: 4rem;
+      input[type='text'] {
+        width: 180px;
       }
 
-      input[type='text'] {
-        width: 200px;
+      .doc {
+        margin-left: 0.5rem;
+      }
+
+      .icons {
+        margin-left: 0.2rem;
+      }
+
+      .contact-icon {
+        margin-left: 1rem;
+      }
+
+
+      .notification-icon {
+        margin-right: 2rem;
       }
 
       .info {
         position: relative;
         right: 0;
-        margin-right: 4rem;
         justify-content: flex-end;
+        margin-right: 5rem;
       
       }
   

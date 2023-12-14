@@ -47,23 +47,25 @@
   .user-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
-    width: 70%;
-    margin-left: 3rem;
+    width: 100%;
+    margin-left: 8rem;
+    gap: 3rem;
     
   
 }
 
 .custom-card {
-  width: 90%;
+  width: 300px;
 }
+
 
 .this {
   display: flex;
   flex-direction: column;
+  text-align: center;
   flex-wrap: wrap;
   font-size: 10px;
-  width: 10vw;
-  margin-left:2rem;
+  margin-left:3rem;
 }
 
 }

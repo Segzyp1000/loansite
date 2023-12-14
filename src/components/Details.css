@@ -68,22 +68,16 @@ th {
 @media screen and (max-width: 567px) {
   .table-container {
     margin-top: 1px;
-    width: 500px;
+    width: 100%;
     margin-left: 2rem;
     padding: 1px;
   }
   
-  .remove,
-  .remove-se,
-  .remove2,
-  .remove3
-  {
-    display: none;
-  }
+  
+  
 
   table {
     line-height: 2.0;
-    font-size: 12px;
     border-collapse: collapse;
     margin-left: 2px;
   }
