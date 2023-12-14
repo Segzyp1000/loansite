@@ -114,6 +114,27 @@ button:focus {
   right: 0;
 }
 }
+@media screen and (min-width: 600px) 
+    and (max-width: 719px) {
+      .header {
+        border: none;
+      }
+
+      .search-container {
+        margin-left: 2rem;
+      }
+
+      .icons {
+        margin-right: 20rem;
+      }
+
+      input[type="text"] {
+        width: 300px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #349292;
+      }
+    }
 
 
  @media screen and (min-width: 768px) and (max-width: 1024px) {

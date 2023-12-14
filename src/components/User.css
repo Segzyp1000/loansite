@@ -48,7 +48,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
     width: 350px;
-    margin-left: 3rem;
+    margin-left: 2rem;
     
   
 }
@@ -66,28 +66,57 @@
   margin-left:2rem;
 }
 
-
 }
 
+@media screen and (min-width: 589px) 
+    and (max-width: 719px) {
+    .user-container {
+      margin-left: 15rem;
+    }
+  }
 
 
     @media screen and (min-width: 768px) 
-    and (max-width: 1024px) {
+    and (max-width: 1024px)  {
       .user-container {
-        width: 80%;
+        width: 600px;
         display: flex;
-        flex-direction: row;
-        margin-left: 8rem;
+        flex-direction: row;  
+        margin-left: 6rem;
         
       }
     }
 
+    @media screen and (min-width: 1025px) 
+    and (max-width: 1060px) {
+      .user-container {
+        width: 850px;
+        margin-left: 13rem;
+      }
+    }
+
+    @media screen and (min-width: 1074px) and (max-width: 1100px) {
+      .user-container {
+        width: 800px;
+        margin-left: 13rem;
+      }
+    }
+  
+
     @media screen and (min-device-width: 1200px) 
     and (max-device-width: 1400px) {
       .user-container {
-        width: 77vw;
+        width: 1000px;
         margin-left: 15rem;
 
         
       }
     } 
+
+    @media screen and (min-device-width: 1400px) 
+    and (max-device-width: 1678px) and (orientation: landscape) {
+      .user-container {
+        width: 1200px;
+        margin-left: 20rem;
+      }
+    }

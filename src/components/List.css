@@ -28,7 +28,27 @@ and (max-width: 1024px) {
     margin-right: 1rem;
 
     }
-} 
+}
+@media screen and (min-width: 589px) 
+    and (max-width: 719px) {
+        .ListG {
+            width: 37vw;
+        }
+    }
+ 
+ 
+@media screen and (min-width: 1074px) and (max-width: 1100px) {
+    .ListG {
+        width: 22vw;
+    }
+}
+
+@media screen and (min-width: 1025px) 
+    and (max-width: 1060px) {
+        .ListG {
+            width: 22vw;
+        }
+    }
 
 
 @media screen and (min-device-width: 1200px) 
