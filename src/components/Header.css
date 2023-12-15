@@ -5,7 +5,6 @@
   background-color: #fff;
   width: 100%;
   border: 1px solid #ccc;
-  
 
 }
 
@@ -73,79 +72,43 @@ button:focus {
   margin-left: 20px;
 }
 
-.remove, .remove3 {
-  display: none;
-}
-
-
 @media screen and (max-width: 576px) {
   .header {
-    width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   border: none;
 
-  }
-
-
+  } 
   .search-container {
-    margin-left: 2rem;
+    margin-left:2rem;
   }
-
-  
-
   input[type="text"] {
-    width: 300px;
+    width: 200px;
     padding: 10px;
     border: 1px solid #349292;
   }
-
-  .remove2,
 
   .doc {
     display: none;
   }
 
   .contact-icon {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
-
-
 .info {
   margin-left: 0.5rem;
+  left: 0;
   position: relative;
-  right: 0;
 }
 }
-@media screen and (min-width: 600px) 
-    and (max-width: 719px) {
+
+  @media screen and (max-width: 768px) {
       .header {
-        border: none;
-      }
-
-      .search-container {
-        margin-left: 2rem;
-      }
-
-      .icons {
-        margin-left: 29rem;
-      }
-
-      input[type="text"] {
-        width: 300px;
-        padding: 10px;
-        font-size: 16px;
-        border: 1px solid #349292;
-      }
-    }
-
-
- @media screen and (min-width: 768px) and (max-width: 1024px) {
-      .header {
-        border: 1px solid #ccc;
         width: 100%;
-        padding: 10px 20px;
         border: none;
+        display: flex;
+        justify-content: space-between;
       }
 
       .header-logo {
@@ -154,12 +117,14 @@ button:focus {
       }
 
       .search-container {
-        margin-left: 2rem;
+        margin-left: 4rem;
+      }
+      input[type="text"] {
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #349292;
       }
 
-      input[type='text'] {
-        width: 180px;
-      }
 
       .doc {
         margin-left: 0.5rem;
@@ -170,7 +135,7 @@ button:focus {
       }
 
       .contact-icon {
-        margin-left: 1rem;
+        margin-left: 4rem;
       }
 
 
@@ -179,15 +144,45 @@ button:focus {
       }
 
       .info {
-        position: relative;
-        right: 0;
-        justify-content: flex-end;
-        margin-right: 5rem;
-      
-      }
-  
+        margin-left: 0.5rem;      
+      }    
+     
+    }   
 
-      
-    }  
+     @media screen and (max-width: 992px) {
+      .header {
+        width: 100%;
+        padding: 10px 20px;
+      }
+
+      .doc {
+        display: none;
+      }
+
+      .search-container {
+        margin-left: 3rem;
+      }
+
+      input[type="text"] {
+        width: 250px;
+        padding: 10px;
+        border: 1px solid #349292;
+      }
+
+      .info{
+        margin-right: 30rem;
+        position: relative;
+      }
+      .contact-icon {
+        margin-left: 3rem;
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      .contact-icon {
+        margin-left: 1rem;
+      }
+    }
     
-   
+  
+  

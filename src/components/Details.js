@@ -59,16 +59,16 @@ function Details() {
       <Table className='table'>
           <th onClick={handleSubmit}>Organization<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Username<MdOutlineExpandMore/></th>
-          <th onClick={handleSubmit}className='remove'>Email<MdOutlineExpandMore/></th>
+          <th onClick={handleSubmit} className='remove'>Email<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Phone Number<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Date Joined<MdOutlineExpandMore/></th>
-          <th onClick={handleSubmit} className='remove-s'>Status<MdOutlineExpandMore/></th>
+          <th onClick={handleSubmit}>Status<MdOutlineExpandMore/></th>
         <tbody className='table-insert'>
           {userData.map(user => (
             <tr key={user.id}>
-               <td className='remove-se'>{user.orgName}</td>
+               <td>{user.orgName}</td>
               <td>{user.userName}</td>
-              <td  className='remove3'>{user.email}</td>
+              <td className='remove'>{user.email}</td>
               <td>{user.phoneNumber}</td>
               <td>{user.lastActiveDate}</td>
               <td>{<span className="status-button" style={{ backgroundColor: getStatusColor(getStatus()) }}>

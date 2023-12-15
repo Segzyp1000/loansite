@@ -18,6 +18,14 @@
     }
 }
 
+@media screen and (max-width:667px) {
+    .list-container {
+        display: none;
+    }
+}
+
+
+
 @media screen and (min-width: 768px) 
 and (max-width: 1024px) {
     .ListG {
