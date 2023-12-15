@@ -62,8 +62,10 @@
 }
 
 .custom-card {
-  width: 250px;
+  width: 288px;
 }
+
+
 
 
 .this {
@@ -134,7 +136,7 @@
         }
 
         .custom-card {
-          width: 250px;
+          width: 350px;
         }
       }
 
