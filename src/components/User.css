@@ -1,5 +1,5 @@
 .user-container {
-    width: 75%;
+    width: 80%;
     padding: 10px; 
     display: flex;
   } 
@@ -56,13 +56,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
     width: 100%;
-    margin-left: 0.5rem;
+    margin-left: 2rem;
     gap: 2rem;   
   
 }
 
 .custom-card {
-  width: 288px;
+  width: 280px;
 }
 
 
@@ -78,17 +78,16 @@
 }
 
 }
-    @media screen and (max-width: 768px)  {
+
+ @media screen and (max-width: 768px)  {
       .user-container {
         width: 72%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        margin-left: 10rem;
-
-        
+        grid-template-columns: repeat(2, 1fr);
+      
       }
       .custom-card {
-        width: 500px;
+        width: 200px;
       }
     }
 
@@ -97,47 +96,33 @@
         width: 72%;
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
-        margin-left: 0.2rem;
+      
+      }
+
+      .custom-card {
+        width: 200px;
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      .user-container {
+        width: 72%;
+        
         
       }
 
       .custom-card {
-        width: 5dvh;
+        width: 200px;
       }
-      }
-      
+    }
 
-      @media screen and (max-width: 1024px) {
-        .user-container {
-          width: 70%;
-          padding: 0 10px;
-          margin-left: 0.2rem;
-        }
+    @media screen and (min-width: 1200px) and (max-width: 1400px) {
+     .user-container {
+      margin-left: 14rem;
+     }
 
-        .custom-card {
-          width: 200px;
-        }
-      }
-
-      @media screen and (min-width: 1200px) and (max-width: 1400px) {
-        .user-container {
-          width: 70%;
-          margin-left: 14rem;
-        }
-
-        .custom-card {
-          width: 300px;
-        }
-      }
-    
-      @media screen and (min-width: 1401px) and (max-width: 1800px) {
-        .user-container {
-          margin-left: 17rem;
-        }
-
-        .custom-card {
-          width: 350px;
-        }
-      }
-
-     
+     .custom-card {
+      width: 250px;
+    }
+    }
+  

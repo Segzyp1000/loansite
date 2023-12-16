@@ -84,7 +84,7 @@ button:focus {
     margin-left:20px;
   }
   input[type="text"] {
-    width: 80px;
+    width: 200px;
     padding: 10px;
     border: 1px solid #349292;
   }
@@ -94,7 +94,7 @@ button:focus {
   }
 
   .icons {
-    margin-left: 2rem;
+    margin-left: 6rem;
   }
 
   }

@@ -180,45 +180,38 @@ h6 {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width:1024px) {
     .LoginPage {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        left: 0;
-        position:absolute;
-        gap: 4rem;
-        width: 100vw;
-        margin-left: 12rem;
+        gap: 7rem;
+        width: 100%;
+        margin-left: 10rem;
     }
-
     .image {
         display: none;
-
-
     }
+
     .logo {
-            margin-left: 20rem
-    
-    }
+        display: flex;
+        margin-left: 23rem;
 
-    #email, #password  {
+    }
+    .password-icon {
+        display: none;
+      }
+
+      #email, #password  {
+        width:100%;
+        display: flex;
+        margin-top: 2em;
         border: 1px solid #ccc;
 
     }
 
-    .password-icon {
-        position: absolute;
-        right:12.5rem;
-        top: 50%;
-        transform: translateY(-50%);
-        cursor: pointer;
-      }
-
-      p {
-        margin-top: 1rem;
-      }
 }
 
 
- 
+
+

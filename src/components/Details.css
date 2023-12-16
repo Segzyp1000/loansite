@@ -3,7 +3,7 @@
 .table-container {
   margin-top: 0;
   width: 80%;
-  margin-left: 12.5rem;
+  margin-left: 17rem;
   padding: 1px;
 }
 
@@ -68,33 +68,31 @@ th {
   .table-container {
     margin-top: 1px;
     width: 100%;
-    margin-left: 0.1rem;
+    margin-left: 0.5rem;
     padding: 1px;
+  }
+
+  .table {
+    width: 100%;
+    font-size: 17px;
   }
 
   .remove {
     display: none;
   }
   
-  table {
-    line-height: 2.0;
-    border-collapse: collapse;
-    margin-left: 2px;
-  }
-
   .footer {
     display: flex;
     font-size: small;
     margin-left: 2px;
-    left: 0;
-    position: absolute;
+   
   }
 }
 
 @media screen and (max-width: 768px)  {
   .table-container {
-    width: 100%;
-    margin-left: 0.1rem;
+    width: 72%;
+    margin-left: 0;
     
   }
 
@@ -104,12 +102,10 @@ th {
 
   
 
-  .footer {
-    margin-right: 2rem;
-  }
+  
 }
 
-@media screen and (max-width: 992px) {
+ @media screen and (max-width: 992px) {
   .table-container {
     width: 62%;
     margin-left: 0.1px
@@ -119,14 +115,13 @@ th {
     display: none;
   }
 
-  }
+  } 
 
   @media screen and (max-width: 1024px) {
     .table-container {
       width: 65%;
       margin-left: 0.1px;
-      position: relative;
-      left: 0;
+      
     }
   }
 
@@ -137,6 +132,7 @@ th {
 
   }
 
+    
+
   
-
-
+ 
