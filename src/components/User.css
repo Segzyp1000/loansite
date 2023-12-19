@@ -2,6 +2,7 @@
     width: 80%;
     padding: 10px; 
     display: flex;
+  
   } 
  
   .custom-card {
@@ -104,17 +105,23 @@
       }
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1024px)  {
       .user-container {
-        width: 72%;
-        
-        
+        width: 72%; 
       }
 
       .custom-card {
         width: 200px;
       }
     }
+
+    @media screen and (min-width: 1024px) and (max-width: 1199px) {
+      .user-container {
+        margin-left: 14rem;
+      }
+    }
+
+
 
     @media screen and (min-width: 1200px) and (max-width: 1400px) {
      .user-container {
@@ -124,5 +131,15 @@
      .custom-card {
       width: 250px;
     }
+    }
+
+    @media screen and (min-width: 1400px) and (max-width: 1800px) {
+      .user-container {
+        margin-left: 16rem;
+      }
+
+      .custom-card {
+        width: 350px;
+      }
     }
   

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Form from './Form';
 import MainPage from './MainPage';
 
+
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -38,6 +39,7 @@ function App() {
           <a href='https://segzyp1000.github.io/loansite/'>Return to the main Page</a>
         </div>
       )}
+      
     </div>
   );
 }

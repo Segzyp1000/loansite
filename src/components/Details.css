@@ -59,6 +59,8 @@ th {
 
 .input-container.active {
   display: block;
+  position: absolute;
+  z-index: 999;
 }
 
 
@@ -123,6 +125,12 @@ th {
       margin-left: 0.1px;
       
     }
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1199px) {
+   .table-container {
+    margin-left:12rem;
+   }
   }
 
   @media screen and (min-width: 1200px) and (max-width: 1400px) {

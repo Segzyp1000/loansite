@@ -6,6 +6,7 @@ import List from './components/List';
 import Details from './components/Details';
 import './MainPage.css';
 
+
 function MainPage() {
   return (
     <div className="main-page">
@@ -24,6 +25,7 @@ function MainPage() {
         
         </div> 
       </div>
+      
     </div>
   );
 }
