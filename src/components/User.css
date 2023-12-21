@@ -6,7 +6,7 @@
   } 
  
   .custom-card {
-    margin: 10px;
+    margin:20px;
     width: 50%;
     box-shadow: 0 4px 8px rgba(86, 51, 51, 0.1); 
 
@@ -88,7 +88,7 @@
       
       }
       .custom-card {
-        width: 200px;
+        width: 250px;
       }
     }
 
@@ -115,10 +115,12 @@
       }
     }
 
-    @media screen and (min-width: 1024px) and (max-width: 1199px) {
+    @media screen and (min-width: 1025px) and (max-width: 1199px) {
       .user-container {
         margin-left: 14rem;
       }
+
+      
     }
 
 
@@ -129,7 +131,7 @@
      }
 
      .custom-card {
-      width: 250px;
+      width: 200px;
     }
     }
 
@@ -139,7 +141,7 @@
       }
 
       .custom-card {
-        width: 350px;
+        width: 300px;
       }
     }
   

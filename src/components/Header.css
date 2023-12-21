@@ -117,6 +117,12 @@ button:focus {
     }
   }
 
+  @media screen and (min-width: 1024px) and (max-width: 1399px) {
+    .header {
+      width: 100%;
+    }
+  }
+
   @media screen and (min-width: 1400px) and (max-width: 1800px) {
     .header {
       width: 100%;

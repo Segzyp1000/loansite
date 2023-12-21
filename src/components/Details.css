@@ -127,7 +127,7 @@ th {
     }
   }
 
-  @media screen and (min-width: 1024px) and (max-width: 1199px) {
+  @media screen and (min-width: 1025px) and (max-width: 1199px) {
    .table-container {
     margin-left:12rem;
    }
