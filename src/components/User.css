@@ -1,13 +1,14 @@
 .user-container {
-    width: 80%;
+    max-width: 70%;
     padding: 10px; 
     display: flex;
+    margin-left: 17rem;
   
   } 
  
   .custom-card {
     margin:20px;
-    width: 50%;
+    width: 500px;
     box-shadow: 0 4px 8px rgba(86, 51, 51, 0.1); 
 
   }
@@ -57,13 +58,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
     width: 100%;
-    margin-left: 2rem;
-    gap: 2rem;   
+    margin-left: 1rem;
+    gap: 5px;   
   
 }
 
 .custom-card {
-  width: 280px;
+  width: 200px;
 }
 
 
@@ -78,70 +79,51 @@
  
 }
 
+} 
+
+@media screen and (max-width: 768px) {
+  .user-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    max-width: 30%;
+    margin-left: 1rem;
+    gap: 2px;   
+  
+}
+.custom-card {
+  width: 180px;
+}
 }
 
- @media screen and (max-width: 768px)  {
-      .user-container {
-        width: 72%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-      
-      }
-      .custom-card {
-        width: 250px;
-      }
-    }
-
-    @media screen and (max-width: 992px) {
-      .user-container {
-        width: 72%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-      
-      }
-
-      .custom-card {
-        width: 200px;
-      }
-    }
-
-    @media screen and (max-width: 1024px)  {
-      .user-container {
-        width: 72%; 
-      }
-
-      .custom-card {
-        width: 200px;
-      }
-    }
-
-    @media screen and (min-width: 1025px) and (max-width: 1199px) {
-      .user-container {
-        margin-left: 14rem;
-      }
-
-      
-    }
-
-
-
-    @media screen and (min-width: 1200px) and (max-width: 1400px) {
-     .user-container {
-      margin-left: 14rem;
-     }
-
-     .custom-card {
-      width: 200px;
-    }
-    }
-
-    @media screen and (min-width: 1400px) and (max-width: 1800px) {
-      .user-container {
-        margin-left: 16rem;
-      }
-
-      .custom-card {
-        width: 300px;
-      }
-    }
+@media screen and (max-width: 992px) {
+  .user-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    max-width: 30%;
+    margin-left: 1rem;
+    gap: 2px;   
   
+}
+ .custom-card {
+  width: 180px;
+  
+}
+
+  } 
+
+  @media screen and (max-width: 1024px) {
+    .user-container {
+      width: 50%;
+      margin-left: 0.1rem;
+    }
+  }
+
+  @media screen and (max-width: 1200px)  {
+    .user-container {
+      width: 100%;
+      margin-left: 0.1rem;
+    }
+    .custom-card {
+      width: 350px;
+    }
+  }

@@ -32,9 +32,10 @@ return (
         <img src={Formic} alt='formulated img' className='image' /> 
       </div>
       <div className='Form-G'>
+        <div className='firstP'>
         <h2>Welcome!</h2>
         <h6>Enter details to login</h6>
-        
+        </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <input
             type='text'
@@ -63,9 +64,7 @@ return (
           <div className='lead'>
             <p>FORGOT PASSWORD?</p>
           </div>
-          <button type='submit' id='submit'>
-            Login In
-          </button>
+          <div><input type="submit" id='submit' value='LOG IN'/></div>      
         </form>
       </div>
     </div>

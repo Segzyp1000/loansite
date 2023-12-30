@@ -36,13 +36,13 @@ function Details() {
       case 'Active':
         return 'rgba(0, 255, 0, 0.2)'; 
       case 'Pending':
-        return 'rgba(255, 255, 0, 0.2)'; 
+        return 'rgba(255, 255, 0, 0lk.2)'; 
       case 'Blocked':
         return 'rgba(255, 0, 0, 0.2)'; 
       case 'Inactive':
         return 'transparent'; 
       default:
-        return 'transparent'; 
+        return 'transparent';  
     }
   };
 
@@ -63,6 +63,7 @@ function Details() {
           <th onClick={handleSubmit}>Phone Number<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Date Joined<MdOutlineExpandMore/></th>
           <th onClick={handleSubmit}>Status<MdOutlineExpandMore/></th>
+          <th></th>
         <tbody className='table-insert'>
           {userData.map(user => (
             <tr key={user.id}>
@@ -72,7 +73,8 @@ function Details() {
               <td>{user.phoneNumber}</td>
               <td>{user.lastActiveDate}</td>
               <td>{<span className="status-button" style={{ backgroundColor: getStatusColor(getStatus()) }}>
-                  {getStatus()}  <MdMoreVert /></span>}</td>
+                   </span>}</td>
+                  <td> <MdMoreVert /></td>
             </tr>
           ))}
         </tbody>

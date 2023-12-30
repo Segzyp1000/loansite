@@ -1,15 +1,13 @@
 .ListG {
-    width: 17vw; 
+    width: 17%; 
     justify-content: flex-start;     
     position: absolute;
     left: 0;
 }
 
 #link22, #link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8, #link9, #link10, #link11, #link12,
-#link13, #link14, #link16, #link17, #link18, #link19, #link20, #link21 {
+#link13, #link14, #link15, #link16, #link17, #link18, #link19, #link20, #link21 {
     color: #213f7d;
-    position: relative;
-    left: 0;
 }
 
 @media screen and (max-width:576px) { 

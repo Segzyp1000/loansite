@@ -16,7 +16,8 @@
     
 }
 h2 {
-    color: #545f7d;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .slider-page {
@@ -59,29 +60,31 @@ h2 {
 
 
 p {
-    color: #5d6fa3;
+    color: #39cdcc;
     width: 100%;
     font-size: 12px;
+    font-weight: bold;
 
 }
 
-p:hover {
-    color: #5a5d0c;
-    cursor: pointer;
-}
+
 
 h6 {
-    color: #545f7d;
     width: 100%;
-    font-size: 6px;
+    font-size: 12rem;
+}
+
+.firstP {
+    margin-bottom: 3rem;
+    color: #213f7d;
 }
 
 
 #email, #password  {
     width:50%;
-    height:50px;
+    height:40px;
     display: flex;
-    margin-top: 1rem;
+    margin-top: 10px;
     border: 1px solid #ccc;
 }
 
@@ -108,15 +111,19 @@ h6 {
 
 #submit {
     width:50%;
+    height: 35px;
     text-transform: uppercase;
     color:#fff;
+    background-color: #39cdcc;
+    border: #39cdcc;
     font-weight: bolder;
     font-size: 15px;
-    border-radius: 1em;
+    border-radius: 8px;
+
 }
 
 #submit:hover {
-    background: #5d0c0c;
+    background: #545f7d;
     color: #fff;
 }
 

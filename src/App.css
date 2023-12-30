@@ -1,9 +1,9 @@
 .App {
 background: #fff;
-max-width: 100%;
+max-width: 100vw;
 }
 
 
 .err {
-    color: blue;
+    color: #213f7d;
 }

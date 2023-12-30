@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  width: 100%; 
-  border: 1px solid #349292;
+  max-width: 100%; 
+  border: 1px solid #ccc;
 
 }
 
@@ -73,17 +73,21 @@ button:focus {
 
 @media screen and (max-width: 576px) {
   .header {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   border: none;
 
   } 
+
+  .header-logo {
+    height: 30px;
+  }
   .search-container {
-    margin-left:20px;
+    margin-left:40px;
   }
   input[type="text"] {
-    width: 200px;
+    width: 90px;
     padding: 10px;
     border: 1px solid #349292;
   }
@@ -93,22 +97,28 @@ button:focus {
   }
 
   .icons {
-    margin-left: 6rem;
+    margin-left: 4rem;
   }
 
   }
 
   @media screen and (max-width: 768px) {
-     
+
+    .header {
+      max-width: 100%;
+    }
       input[type="text"] {
-        width: 280px;
+        width: 200px;
         padding: 10px;
         border: 1px solid #349292;
       }
 
     }
 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
+    .header {
+      width: 100%; 
+    }
       input[type="text"] {
         width: 250px;
         padding: 10px;
@@ -117,11 +127,11 @@ button:focus {
     }
   }
 
-  @media screen and (min-width: 1024px) and (max-width: 1399px) {
+   @media screen and (min-width: 1024px) and (max-width: 1399px) {
     .header {
       width: 100%;
     }
-  }
+  } 
 
   @media screen and (min-width: 1400px) and (max-width: 1800px) {
     .header {
@@ -134,4 +144,4 @@ button:focus {
           }
   }
 
-    
+       

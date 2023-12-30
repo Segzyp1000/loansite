@@ -1,72 +1,26 @@
-
-
 .table-container {
-  margin-top: 0;
-  width: 80%;
   margin-left: 17rem;
-  padding: 1px;
 }
 
-table {
-  width: 100%;
+.table {
+  max-width: 88%;
+  font-size: 13px;
   line-height: 2.0;
-  font-size: 12px;
-  border-collapse: collapse;
-  margin: 20px;
-}
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
 }
 
 th {
-  background-color: #f2f2f2;
-  margin-right: 8rem;
+  background: #ddd;
   text-transform: uppercase;
 }
 
-.input {
-  border-radius: 1px;
-}
-
-.footer {
-  display: flex;
-  font-size: small;
-}
-
-.status-button {
-  border-radius: 2rem;
-  display: flex;
-  line-height: 1.7;
-}
-
 .details-container {
-  position: relative;
-}
-
-.input-container {
-  display: none;
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.9);
+  top: 1;
+  left: 1;
+  z-index: 999;  
 }
-
-.input-container.active {
-  display: block;
-  position: absolute;
-  z-index: 999;
-}
-
-
-
-
-@media screen and (max-width: 567px) {
+ @media screen and (max-width: 567px) {
   .table-container {
     margin-top: 1px;
     width: 100%;
@@ -76,7 +30,7 @@ th {
 
   .table {
     width: 100%;
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .remove {
@@ -89,28 +43,32 @@ th {
     margin-left: 2px;
    
   }
-}
+} 
 
-@media screen and (max-width: 768px)  {
+ @media screen and (max-width: 768px)  {
   .table-container {
-    width: 72%;
+    max-width: 70%;
     margin-left: 0;
     
+  }
+
+  .table {
+    font-size: 12px;
   }
 
   .remove {
     display: none;
   }
-
-  
-
   
 }
 
- @media screen and (max-width: 992px) {
+ @media screen and (min-width: 769px) and (max-width: 992px) {
   .table-container {
-    width: 62%;
+    width: 60%;
     margin-left: 0.1px
+  }
+  .table {
+    font-size: 14px;
   }
 
   .remove {
@@ -121,26 +79,35 @@ th {
 
   @media screen and (max-width: 1024px) {
     .table-container {
-      width: 65%;
+      width: 60%;
       margin-left: 0.1px;
       
     }
+
+    .table {
+      font-size: 12px;
+    }
   }
 
-  @media screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* @media screen and (min-width: 1025px) and (max-width: 1199px) {
    .table-container {
     margin-left:12rem;
    }
-  }
+  
+ }
 
   @media screen and (min-width: 1200px) and (max-width: 1400px) {
     .table-container {
       width: 70%;
     }
 
-  }
+    .table {
+      font-size: 18px;
+    }
+
+  } 
 
     
 
   
- 
+      */

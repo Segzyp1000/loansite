@@ -23,7 +23,7 @@ function App() {
         setIsLoggedIn(true);
         setIsLoading(false);
       }
-    }, 2000); // Simulating a 2-second delay
+    }, 8000); // Simulating a 2-second delay
   };
 
   return (
