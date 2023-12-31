@@ -62,7 +62,7 @@ return (
           </div>
           
           <div className='lead'>
-            <p>FORGOT PASSWORD?</p>
+            <p className='leader'>FORGOT PASSWORD?</p>
           </div>
           <div><input type="submit" id='submit' value='LOG IN'/></div>      
         </form>

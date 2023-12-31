@@ -103,14 +103,17 @@ button:focus {
   }
 
   @media screen and (max-width: 768px) {
-
     .header {
       max-width: 100%;
+      border: none;
     }
       input[type="text"] {
         width: 200px;
         padding: 10px;
         border: 1px solid #349292;
+      }
+      .search-container {
+        margin-left:2rem;
       }
 
     }
@@ -120,7 +123,7 @@ button:focus {
       width: 100%; 
     }
       input[type="text"] {
-        width: 250px;
+        width: 200px;
         padding: 10px;
         border: 1px solid #349292;
       
@@ -144,4 +147,4 @@ button:focus {
           }
   }
 
-       
+      

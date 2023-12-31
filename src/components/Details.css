@@ -24,18 +24,20 @@ th {
   .table-container {
     margin-top: 1px;
     width: 100%;
-    margin-left: 0.5rem;
+   margin-left: 2rem;
     padding: 1px;
   }
 
   .table {
-    width: 100%;
+    max-width: 100%;
     font-size: 14px;
   }
 
   .remove {
     display: none;
   }
+
+  
   
   .footer {
     display: flex;
@@ -45,69 +47,47 @@ th {
   }
 } 
 
- @media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
   .table-container {
-    max-width: 70%;
-    margin-left: 0;
-    
+    margin-top: 1px;
+    width: 80%;
+   margin-left: 2px;
+    padding: 1px;
   }
-
   .table {
-    font-size: 12px;
+    max-width: 50%;
   }
 
   .remove {
     display: none;
   }
-  
 }
 
- @media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .table-container {
+    margin-top: 1px;
     width: 60%;
-    margin-left: 0.1px
+   margin-left: 2px;
+    padding: 1px;
   }
   .table {
-    font-size: 14px;
+    max-width: 50%;
   }
-
   .remove {
     display: none;
   }
+}
 
-  } 
-
-  @media screen and (max-width: 1024px) {
-    .table-container {
-      width: 60%;
-      margin-left: 0.1px;
-      
-    }
-
-    .table {
-      font-size: 12px;
-    }
+@media screen and (max-width: 1024px) {
+  .table-container {
+    margin-top: 1px;
+    width: 60%;
+   margin-left: 2px;
+    padding: 1px;
   }
-
-  /* @media screen and (min-width: 1025px) and (max-width: 1199px) {
-   .table-container {
-    margin-left:12rem;
-   }
+  .table {
+    max-width: 100%;
+  }
   
- }
-
-  @media screen and (min-width: 1200px) and (max-width: 1400px) {
-    .table-container {
-      width: 70%;
-    }
-
-    .table {
-      font-size: 18px;
-    }
-
-  } 
-
-    
-
-  
-      */
+ 
+} 
