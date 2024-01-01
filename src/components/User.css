@@ -100,14 +100,10 @@
     .user-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);  
-      max-width: 50%;
-      margin-left: 0.5px;
+      max-width: 40%;
+      margin-left: 0px;
     
     
-  }
-
-  .custom-card {
-    width: 160px;
   }
   }
 

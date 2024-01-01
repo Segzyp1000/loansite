@@ -81,12 +81,16 @@ th {
 @media screen and (max-width: 1024px) {
   .table-container {
     margin-top: 1px;
-    width: 60%;
+    width: 100%;
    margin-left: 2px;
     padding: 1px;
   }
   .table {
     max-width: 100%;
+  }
+
+  .remove {
+    display: none;
   }
   
  

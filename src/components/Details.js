@@ -36,13 +36,13 @@ function Details() {
       case 'Active':
         return 'rgba(0, 255, 0, 0.2)'; 
       case 'Pending':
-        return 'rgba(255, 255, 0, 0lk.2)'; 
+        return 'rgba(255, 255, 0, 0.2)'; 
       case 'Blocked':
         return 'rgba(255, 0, 0, 0.2)'; 
       case 'Inactive':
         return 'transparent'; 
       default:
-        return 'transparent';  
+        return 'transparent'; 
     }
   };
 
@@ -73,7 +73,7 @@ function Details() {
               <td className='phone'>{user.phoneNumber}</td>
               <td>{user.lastActiveDate}</td>
               <td>{<span className="status-button" style={{ backgroundColor: getStatusColor(getStatus()) }}>
-                   </span>}</td>
+                  {getStatus()} </span>}</td>
                   <td> <MdMoreVert /></td>
             </tr>
           ))}
