@@ -1,4 +1,18 @@
 .select {
   display: flex;
-  margin-left: 5rem;
+  position: absolute;
+  left: 0;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  
+  
 }
+
+@media screen and (max-width: 567px)  {
+ .select {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 2rem;
+ }
+}
+

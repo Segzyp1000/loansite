@@ -130,13 +130,13 @@ button:focus {
     }
   }
 
-   @media screen and (min-width: 1024px) and (max-width: 1399px) {
+   @media screen and (max-width: 1024px)  {
     .header {
       width: 100%;
     }
   } 
 
-  @media screen and (min-width: 1400px) and (max-width: 1800px) {
+  @media screen and (max-width: 1200px)  {
     .header {
       width: 100%;
     }
@@ -146,5 +146,19 @@ button:focus {
       right: 0;
           }
   }
+
+  @media screen and (max-width: 1400px) {
+    
+      .header {
+        width: 100%;
+      }
+  
+      .icons {
+        position: relative;
+        right: 0;
+            }
+    }
+  
+  
 
       

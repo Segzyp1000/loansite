@@ -21,7 +21,8 @@ function MainPage() {
         </div>
         <div className = 'mainbar'>
         <User className='User'/>
-        <Details className='details' />
+        
+          <Details className='details' />
         
         </div> 
       </div>

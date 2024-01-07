@@ -7,8 +7,12 @@ import './Select.css';
           setCurrentPage(1);
         };
 
+      
+
 return (
 <div className='select'>
+  <span>
+ showing
 <select onChange={handleLimitChange}>
         <option value={10}>10</option>
         <option value={20}>20</option>
@@ -16,6 +20,8 @@ return (
         <option value={50}>50</option>
         <option value={100}>100</option>
       </select>
+      out of 100
+      </span>
       </div>
 )
 }
