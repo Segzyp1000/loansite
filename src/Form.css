@@ -65,6 +65,11 @@ h2 {
     font-size: 12px;
     font-weight: bold;
 
+
+}
+
+.leader:hover {
+    color: #ff0000;
 }
 
 

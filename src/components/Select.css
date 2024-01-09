@@ -8,6 +8,10 @@
   
 }
 
+.options {
+  margin: 5px;
+}
+
 @media screen and (max-width: 567px)  {
  .select {
   display: flex;

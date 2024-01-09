@@ -13,7 +13,7 @@ return (
 <div className='select'>
   <span>
  showing
-<select onChange={handleLimitChange}>
+<select className="options" onChange={handleLimitChange}>
         <option value={10}>10</option>
         <option value={20}>20</option>
         <option value={25}>25</option>

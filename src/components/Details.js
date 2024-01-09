@@ -93,9 +93,11 @@ function Details() {
               </span>
             </td>
             
-              <td className='status-options'>
-                <MdMoreVert  />
+            <td className='status-options'>
+              
+              <MdMoreVert />
               </td>
+              
             </tr>
           ))}
         </tbody>
