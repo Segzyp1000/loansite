@@ -3,7 +3,7 @@ import Table from 'react-bootstrap/Table';
 import Select from './Select';
 import Button from './Button';
 import Input from './Input';
-import { MdMoreVert } from 'react-icons/md';
+// import { MdMoreVert } from 'react-icons/md';
 import { MdOutlineExpandMore } from 'react-icons/md';
 import './Details.css';
 
@@ -78,7 +78,7 @@ function Details() {
         </th>
         <th onClick={handleSubmit}>Date Joined<MdOutlineExpandMore /></th>
         <th onClick={handleSubmit}>Status<MdOutlineExpandMore /></th>
-        <th className='status-options'></th>
+        
         <tbody className="table-insert">
           {userData.map((user, index) => (
             <tr key={user.id}>
@@ -92,12 +92,6 @@ function Details() {
                 {getStatus(index)}
               </span>
             </td>
-            
-            <td className='status-options'>
-              
-              <MdMoreVert />
-              </td>
-              
             </tr>
           ))}
         </tbody>
